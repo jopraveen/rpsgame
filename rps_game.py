@@ -29,20 +29,20 @@ while player == False:
 	print("Type the object that you want to choose")
 	player = input("rock, paper, scissor:")
 	if player == computer:
-		print("Both of them are choosen same objects <•_• > So The Result is Tie!")
+		print("Both of them are choosen same objects! So The Result is Tie!")
 	elif player == "rock":
 		if	computer == "paper":
-			print("You Losed Bruh <•_•> The Computer wins!")
+			print("You Losed Bruh! The Computer wins!")
 		else:
 			print("You Win Bruh! You Smashed The Computer!")
 	elif player == "paper":
 		if computer == "scissor":
-				print("You Losed Bruh <•_•> The Computer wins!")
+				print("You Losed Bruh! The Computer wins!")
 		else:
 				print("You Win Bruh! You Smashed The Computer!")
 	elif player == "scissor":
 		if computer == "rock":
-				print("You Losed Bruh <•_•> The Computer wins!")
+				print("You Losed Bruh! The Computer wins!")
 		else:
 				print("You Win Bruh! You Smashed The Computer!")
 	else:
